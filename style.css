@@ -1,0 +1,46 @@
+html {
+    background-color: rgb(195, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    padding: 35px;
+    background-color: rgb(255, 253, 250);
+    border-radius: 8px;
+
+}
+
+input,
+button {
+    padding: 8px;
+    border: none;
+    background-color: #eae8e8;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(23, 109, 189);
+    color: white;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex2 {
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 108, 184);
+}
